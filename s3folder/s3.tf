@@ -8,6 +8,5 @@ resource "aws_s3_bucket" "xashy-s3-bucket" {
 resource "aws_s3_bucket_versioning" "acceptversioning" {
   bucket = aws_s3_bucket.xashy-s3-bucket.id
   versioning_configuration {
-    
-  }
+}
 }
